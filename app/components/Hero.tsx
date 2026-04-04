@@ -40,9 +40,9 @@ export default function Hero({ name, headline, bio, photo, links, ui }: HeroProp
       <div className="relative max-w-5xl mx-auto w-full z-10">
         <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-12 md:gap-16 items-center">
           {/* ── LEFT / TEXT COLUMN ───────────────────────────────────────── */}
-          <div className="order-2 md:order-1">
+          <div className="order-2 md:order-1 flex flex-col items-center md:items-start text-center md:text-left">
             {/* Availability badge */}
-            <div className="flex items-center gap-2 mb-7">
+            <div className="flex items-center justify-center md:justify-start gap-2 mb-7">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500" />
@@ -68,7 +68,7 @@ export default function Hero({ name, headline, bio, photo, links, ui }: HeroProp
             </p>
 
             {/* CTA buttons */}
-            <div className="flex flex-wrap items-center gap-3 mb-10">
+            <div className="flex flex-wrap justify-center md:justify-start items-center gap-3 mb-10">
               <a
                 href="#projects"
                 id="hero-view-projects"
@@ -89,11 +89,11 @@ export default function Hero({ name, headline, bio, photo, links, ui }: HeroProp
             </div>
 
             {/* Social links row */}
-            <div className="flex items-center gap-4 text-sm text-zinc-500">
+            <div className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-4 text-sm text-zinc-500">
               <span className="text-xs text-zinc-700 dark:text-zinc-400 uppercase tracking-wider font-medium">
                 {ui.connect}
               </span>
-              <div className="flex items-center gap-2">
+              <div className="flex flex-wrap justify-center items-center gap-2">
                 <a
                   href={links.github}
                   target="_blank"
@@ -131,8 +131,8 @@ export default function Hero({ name, headline, bio, photo, links, ui }: HeroProp
             </div>
           </div>
 
-          {/* ── RIGHT / PHOTO COLUMN ─────────────────────────────────────── */}
-          <div className="order-1 md:order-2 flex justify-center md:justify-end">
+          {/* ── RIGHT / PHOTO COLUMN (Hidden on Mobile) ──────────────────── */}
+          <div className="hidden md:flex order-1 md:order-2 justify-center md:justify-end">
             {photo ? (
               <div className="relative w-56 h-56 md:w-72 md:h-72 flex-shrink-0 group">
                 <div className="absolute inset-0 rounded-2xl bg-indigo-500/20 blur-3xl scale-110 -z-10 group-hover:bg-indigo-400/30 transition-colors duration-500" />
