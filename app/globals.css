@@ -1,26 +1,72 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* ─── Class-based dark mode (Tailwind v4 syntax) ─────────────────────────── */
+@variant dark (&:where(.dark, .dark *));
 
+/* ─── Base theme tokens ───────────────────────────────────────────────────── */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ─── CSS custom properties: light (default) ─────────────────────────────── */
+:root {
+  color-scheme: light;
+  --page-bg: #f8fafc;           /* slate-50  */
+  --fg-primary: #09090b;        /* zinc-950  */
+  --fg-secondary: #52525b;      /* zinc-600  */
+  --fg-muted: #a1a1aa;          /* zinc-400  */
+  --card-bg: rgba(255,255,255,0.40);
+  --card-bg-hover: rgba(255,255,255,0.65);
+  --card-border: rgba(228,228,231,0.50);
+  --divider: rgba(228,228,231,0.60);
+  --accent: #6366f1;
+  --accent-dim: rgba(99,102,241,0.10);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.03), inset 0 1px 1px rgba(255, 255, 255, 0.6), inset 0 -1px 1px rgba(255, 255, 255, 0.1);
+}
+
+/* ─── CSS custom properties: dark ────────────────────────────────────────── */
+.dark {
+  color-scheme: dark;
+  --page-bg: #09090b;
+  --fg-primary: #fafafa;
+  --fg-secondary: #a1a1aa;
+  --fg-muted: #71717a;
+  --card-bg: rgba(24,24,27,0.25);
+  --card-bg-hover: rgba(24,24,27,0.45);
+  --card-border: rgba(39,39,42,0.40);
+  --divider: rgba(39,39,42,0.60);
+  --accent: #818cf8;
+  --accent-dim: rgba(99,102,241,0.12);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), inset 0 1px 1px rgba(255, 255, 255, 0.1), inset 0 -1px 1px rgba(255, 255, 255, 0.02);
+}
+
+/* ─── Global base ─────────────────────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.2s ease;
 }
+
+/* ─── Glass card utility ──────────────────────────────────────────────────── */
+.glass-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  box-shadow: var(--glass-shadow);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.glass-card:hover {
+  background: var(--card-bg-hover);
+}
+
+/* ─── Custom scrollbar ────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--card-border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--fg-muted); }

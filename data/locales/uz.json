@@ -1,0 +1,194 @@
+{
+  "ui": {
+    "nav": {
+      "experience": "Tajriba",
+      "education": "Ta'lim",
+      "projects": "Loyihalar",
+      "skills": "Ko'nikmalar",
+      "contact": "Bog'lanish",
+      "getInTouch": "Bog'lanish"
+    },
+    "hero": {
+      "availability": "Yangi imkoniyatlarga ochiqman",
+      "viewCaseStudies": "Loyihalarni ko'rish",
+      "downloadResume": "Rezyumeni yuklash",
+      "connect": "Ijtimoiy tarmoqlar"
+    },
+    "experience": {
+      "label": "Faoliyat",
+      "heading": "Tajriba",
+      "description": "ma'lumotlar tahlili va biznes intellekti sohasidagi loyihalar.",
+      "present": "Hozirgacha"
+    },
+    "education": {
+      "label": "Ma'lumot",
+      "heading": "Ta'lim",
+      "description": "Akademik daraja va professional sertifikatlar.",
+      "credentials": "ta sertifikat"
+    },
+    "projects": {
+      "label": "Loyihalar",
+      "heading": "Natijalar",
+      "description": "Har bir loyiha ta'sirni aniq ifodalash uchun SAR (Vaziyat, Harakat, Natija) strukturasi asosida yozilgan.",
+      "sarFramework": "SAR strukturasi",
+      "situation": "Vaziyat",
+      "action": "Harakat",
+      "result": "Natija",
+      "viewCode": "Kodni ko'rish",
+      "viewDashboard": "Doshbordni ko'rish"
+    },
+    "skills": {
+      "label": "Texnologiyalar Stack-i",
+      "heading": "Asboblar va Texnologiyalar",
+      "description": "Analitik muammolarni hal qilishda foydalaniladigan tasdiqlangan vositalar to'plami."
+    },
+    "footer": {
+      "rights": "Barcha huquqlar himoyalangan."
+    }
+  },
+  "personalInfo": {
+    "name": "Farrux Asrorqulov",
+    "headline": "Murakkab ma'lumotlarni amaliy biznes qarorlariga aylantiraman",
+    "bio": "Mijozlarni segmentatsiyalash va statistik tahlil hamda mashinali o'rganish orqali xarajatlarni optimallashtirishga ixtisoslashgan Katta Ma'lumotlar Tahlilchisi. Men xom ma'lumotlarni strategik qarorlarni qabul qilishga olib keladigan aniq natijalarga aylantiraman.",
+    "photo": "/farrux.jpg",
+    "links": {
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com",
+      "email": "mailto:jane.doe@example.com"
+    }
+  },
+  "experience": [
+    {
+      "id": "1",
+      "role": "Junior Ma'lumotlar Tahlilchisi",
+      "company": "TechCorp Inc.",
+      "location": "San Francisco, CA",
+      "type": "To'liq stavka",
+      "period": { "start": "Yan 2022", "end": "Hozirgacha" },
+      "highlights": [
+        "12 xil mahsulot bo'ylab 3.2 million faol foydalanuvchilarga xizmat ko'rsatadigan to'liq tahlil tizimini boshqarganman.",
+        "K-Means segmentatsiya modelini joriy qilish orqali mijozlarni yo'qotish faolligini 8% ga kamaytirdim.",
+        "Marketing va Operatsiyalar bo'limidagi 40+ mutaxassislar foydalanadigan maxsus Tableau doshbordlarini yaratdim.",
+        "2 ta Junior tahlilchilarga rahbarlik qildim va SQL / Python kodlari uchun tahlil jarayonini joriy qildim."
+      ]
+    },
+    {
+      "id": "2",
+      "role": "Ma'lumotlar Tahlilchisi",
+      "company": "Retail Analytics Co.",
+      "location": "Masofaviy",
+      "type": "To'liq stavka",
+      "period": { "start": "Iyun 2020", "end": "Dek 2021" },
+      "highlights": [
+        "Narxlarni belgilash va UX qismlari bo'yicha 15+ dan ortiq qat'iy statistik tasdiqlangan A/B testlarini o'tkazdim.",
+        "Airflow va Python yordamida har haftalik hisobotlarni avtomatlashtirdim va haftasiga 6 soat vaqtni tejadim.",
+        "Talabni bashorat qilish modelini ishlab chiqish uchun logistika jamoasi bilan hamkorlik qildim (MAE: 4.2%)."
+      ]
+    },
+    {
+      "id": "3",
+      "role": "Ma'lumotlar Tahlilchisi Intern",
+      "company": "FinTech Startup",
+      "location": "New York, NY",
+      "type": "Amaliyot",
+      "period": { "start": "Iyun 2019", "end": "Avg 2019" },
+      "highlights": [
+        "SQL va Python yordamida firibgarlik holatlarini aniqlash maqsadida 200 мингдан ortiq foydalanuvchi tranzaksiyalarini tahlil qildim.",
+        "Topilgan natijalarni bevosita CTO ga taqdim etdim; tavsiyalar 2019-yil 3-chorakda to'liq joriy etildi."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "degree": "B.Sc. Statistika va Kompyuter Ilmlari",
+      "institution": "California Universiteti, Berkeley",
+      "location": "Berkeley, CA",
+      "period": { "start": "2016", "end": "2020" },
+      "gpa": "3.8 / 4.0",
+      "highlights": [
+        "Dekan Ro'yxati — ketma-ket 6 semestr",
+        "Diplom ishi: 'E-commerce platformalarida iste'molchi xatti-harakatlarini bashorat qilish'",
+        "O'qituvchi yordamchisi — Data Science ga kirish (2 semestr)"
+      ]
+    },
+    {
+      "id": "2",
+      "degree": "Data Science Professional Sertifikati",
+      "institution": "Coursera / Google",
+      "location": "Onlayn",
+      "period": { "start": "2021", "end": "2021" },
+      "gpa": null,
+      "highlights": [
+        "Python, SQL, Tableau va ML asoslari bo'yicha 8 kursli ixtisoslashtirilgan dasturni tamomladim.",
+        "Yakuniy loyiha barcha talabalarning eng yaxshi 5% safiga kirdi."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Ma'lumotlarni Qayta Ishlash",
+      "items": ["Python (Pandas, NumPy)", "SQL (PostgreSQL)", "dbt", "Apache Spark"]
+    },
+    {
+      "category": "Vizualizatsiya",
+      "items": ["Tableau", "Power BI", "Matplotlib / Seaborn", "Looker"]
+    },
+    {
+      "category": "Statistik Tahlil",
+      "items": ["A/B Testing", "Regression Analysis", "Hypothesis Testing", "Time Series"]
+    },
+    {
+      "category": "Mashinali O'rganish",
+      "items": ["Scikit-learn", "K-Means Clustering", "XGBoost", "Feature Engineering"]
+    },
+    {
+      "category": "Infrastruktura",
+      "items": ["Google BigQuery", "AWS Redshift", "Airflow", "Git / GitHub"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "E-commerce Mijozlari Segmentatsiyasi",
+      "tags": ["Python", "K-Means", "SQL", "Tableau"],
+      "sar": {
+        "situation": "Mijozlarni ushlab qolish darajasi o'tgan yilga nisbatan 15% ga kamaydi, biroq qaysi turdagi mijozlar va nima sababdan ketayotganligi noma'lum edi.",
+        "action": "500 мингдан ortiq SQL tranzaksiyalaridan iborat ma'lumotlarni tozaladim. 5 xil tipdagi foydalanuvchi klasterlarini ajratish uchun K-Means algoritmini qullädim. Marketing jamoasi uchun vizual Tableau doshbordini tuzdim.",
+        "result": "Tegishli re-engagement kampaniyalari orqali ushlab qolish darajasi 8% ga oshdi va xarajatlarni har oy $3,500 ga qisqartirdi."
+      },
+      "links": {
+        "github": "https://github.com",
+        "dashboard": "https://public.tableau.com"
+      }
+    },
+    {
+      "id": "2",
+      "title": "Logistika Xarajatlarini Optimallashtirish",
+      "tags": ["Python", "XGBoost", "BigQuery", "Power BI"],
+      "sar": {
+        "situation": "Logistika xarajatlari ketma-ket 3 chorak davomida rejadagidan 22% ga oshib ketdi va buni bashorat qilib bo'lmas edi.",
+        "action": "BigQuery'dagi 2 yillik yuk tashish ma'lumotlari asosida XGBoost regressiya modelini qurdim. 9 ta asosiy xarajat haydovchisini aniqladim va operatsion rahbariyat uchun Power BI hisobotini yaratdim.",
+        "result": "Model barcha holatlarni 91% aniqlik bilan bashorat qildi. Berilgan tavsiyalar har chorakda logistika xarajatlarini 14% ga kamaytirishga olib keldi."
+      },
+      "links": {
+        "github": "https://github.com",
+        "dashboard": null
+      }
+    },
+    {
+      "id": "3",
+      "title": "A/B Test: Bosh sahifa Konversiyasini Oshirish",
+      "tags": ["Python", "Statistics", "SQL", "Looker"],
+      "sar": {
+        "situation": "Mahsulot jamoasi yangi bosh sahifa maketini taklif qildi, ammo ro'yxatdan o'tish ko'rsatkichiga qanday ta'sir qilishini aniq isbotlovchi tizim yo'q edi.",
+        "action": "45 минг foydalanuvchi ishtirokida 3 haftalik qat'iy A/B test loyihasini yaratdim va jarayonni nazorat qildim. Statistik ahamiyatini tasdiqlash uchun Chi-square va Bootstrap ishonch oraliqlaridan foydalandim.",
+        "result": "Konversiyaning 2.3% ga sifat jihatdan ishonchli (p < 0.05) ko'tarilganligini tasdiqladim. Bu har oy qo'shimcha $8,000 daromad keltiradi."
+      },
+      "links": {
+        "github": "https://github.com",
+        "dashboard": "https://lookerstudio.google.com"
+      }
+    }
+  ]
+}
