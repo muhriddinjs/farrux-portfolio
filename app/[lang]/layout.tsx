@@ -10,11 +10,20 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Farrux Asrorqulov — Data Analyst Portfolio",
+  title: {
+    default: "Farrux Asrorqulov | Senior Data Analyst Portfolio",
+    template: "%s | Farrux Asrorqulov"
+  },
   description:
-    "Senior Data Analyst specializing in customer segmentation, cost optimization, and statistical analysis. Turning raw data into actionable business decisions.",
+    "Farrux Asrorqulov (Farrukh Asrorqulov) is a Senior Data Analyst specializing in customer segmentation, cost optimization, Python, SQL, Tableau, and Power BI. Discover my full portfolio and projects.",
   keywords: [
-    "Data Analyst",
+    "Farrux Asrorqulov",
+    "Farrukh Asrorqulov",
+    "Фаррух Асроркулов",
+    "Farrux Data Analyst",
+    "Data Analyst in Uzbekistan",
+    "Tashkent Data Analyst",
+    "Senior Data Analyst",
     "Portfolio",
     "Python",
     "SQL",
@@ -22,11 +31,37 @@ export const metadata: Metadata = {
     "Tableau",
     "Power BI",
   ],
+  authors: [{ name: "Farrux Asrorqulov" }],
+  creator: "Farrux Asrorqulov",
+  publisher: "Farrux Asrorqulov",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   openGraph: {
-    title: "Farrux Asrorqulov — Data Analyst Portfolio",
+    title: "Farrux Asrorqulov | Senior Data Analyst Portfolio",
     description:
-      "Transforming complex data into actionable business decisions.",
+      "Explore the portfolio of Farrux Asrorqulov, a Data Analyst transforming complex data into actionable business decisions using Python, SQL, and Machine Learning.",
+    siteName: "Farrux Asrorqulov Portfolio",
     type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Farrux Asrorqulov | Data Analyst",
+    description: "Senior Data Analyst portfolio by Farrux Asrorqulov.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 };
 

@@ -18,8 +18,43 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
 
   const { personalInfo, experience, education, skills, projects, ui } = data;
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://farruxasrorqulov.com/#person",
+        "name": "Farrux Asrorqulov",
+        "alternateName": ["Farrukh Asrorqulov", "Фаррух Асроркулов"],
+        "jobTitle": "Senior Data Analyst",
+        "url": "https://farruxasrorqulov.com",
+        "image": "https://farruxasrorqulov.com/farrux.jpg", 
+        "sameAs": [
+          personalInfo.links.linkedin,
+          personalInfo.links.github,
+          personalInfo.links.telegram,
+          "https://farruxasrorqulov.com"
+        ].filter(Boolean),
+        "knowsAbout": ["Data Analysis", "Python", "SQL", "Machine Learning", "Tableau", "Power BI", "Data Visualization", "Data Science"]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://farruxasrorqulov.com/#website",
+        "url": "https://farruxasrorqulov.com",
+        "name": "Farrux Asrorqulov | Senior Data Analyst Portfolio",
+        "publisher": {
+          "@id": "https://farruxasrorqulov.com/#person"
+        }
+      }
+    ]
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Navbar name={personalInfo.name} email={personalInfo.links.email} ui={ui.nav} />
 
       <main>

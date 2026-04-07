@@ -1,0 +1,147 @@
+{
+  "personalInfo": {
+    "name": "Farrux Asrorqulov",
+    "headline": "Transforming complex data into actionable business decisions",
+    "bio": "Senior Data Analyst specializing in customer segmentation and cost optimization through statistical analysis and machine learning. I turn raw data into clear narratives that drive strategic decisions.",
+    "photo": "/profile.jpg",
+    "links": {
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com",
+      "email": "mailto:jane.doe@example.com"
+    }
+  },
+  "experience": [
+    {
+      "id": "1",
+      "role": "Junior Data Analyst",
+      "company": "TechCorp Inc.",
+      "location": "San Francisco, CA",
+      "type": "Full-time",
+      "period": { "start": "Jan 2022", "end": "Present" },
+      "highlights": [
+        "Owned end-to-end analytics pipeline serving 3.2M monthly active users across 12 product lines.",
+        "Reduced customer churn by 8% through K-Means segmentation model deployed to production.",
+        "Built self-serve Tableau dashboards adopted by 40+ stakeholders across Marketing and Operations.",
+        "Mentored 2 junior analysts and introduced code review practices for SQL and Python notebooks."
+      ]
+    },
+    {
+      "id": "2",
+      "role": "Data Analyst",
+      "company": "Retail Analytics Co.",
+      "location": "Remote",
+      "type": "Full-time",
+      "period": { "start": "Jun 2020", "end": "Dec 2021" },
+      "highlights": [
+        "Designed and executed 15+ A/B tests on pricing and UX features, with rigorous statistical validation.",
+        "Automated weekly reporting pipeline using Airflow + Python, saving 6 hours of manual work per week.",
+        "Partnered with the supply chain team to build a demand forecasting model (MAE: 4.2%)."
+      ]
+    },
+    {
+      "id": "3",
+      "role": "Data Analyst Intern",
+      "company": "FinTech Startup",
+      "location": "New York, NY",
+      "type": "Internship",
+      "period": { "start": "Jun 2019", "end": "Aug 2019" },
+      "highlights": [
+        "Analyzed transaction data from 200k+ users to identify fraud patterns using SQL and Python.",
+        "Presented findings directly to the CTO; recommendations were implemented in Q3 2019."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "degree": "B.Sc. Statistics & Computer Science",
+      "institution": "University of California, Berkeley",
+      "location": "Berkeley, CA",
+      "period": { "start": "2016", "end": "2020" },
+      "gpa": "3.8 / 4.0",
+      "highlights": [
+        "Dean's List — 6 consecutive semesters",
+        "Thesis: 'Predictive Modeling of Consumer Behavior in E-commerce'",
+        "Teaching Assistant — Intro to Data Science (2 semesters)"
+      ]
+    },
+    {
+      "id": "2",
+      "degree": "Data Science Professional Certificate",
+      "institution": "Coursera / Google",
+      "location": "Online",
+      "period": { "start": "2021", "end": "2021" },
+      "gpa": null,
+      "highlights": [
+        "Completed 8-course specialization covering Python, SQL, Tableau, and ML fundamentals.",
+        "Capstone project scored in the top 5% of cohort."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Data Manipulation",
+      "items": ["Python (Pandas, NumPy)", "SQL (PostgreSQL)", "dbt", "Apache Spark"]
+    },
+    {
+      "category": "Visualization",
+      "items": ["Tableau", "Power BI", "Matplotlib / Seaborn", "Looker"]
+    },
+    {
+      "category": "Statistical Analysis",
+      "items": ["A/B Testing", "Regression Analysis", "Hypothesis Testing", "Time Series"]
+    },
+    {
+      "category": "Machine Learning",
+      "items": ["Scikit-learn", "K-Means Clustering", "XGBoost", "Feature Engineering"]
+    },
+    {
+      "category": "Infrastructure",
+      "items": ["Google BigQuery", "AWS Redshift", "Airflow", "Git / GitHub"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "E-commerce Customer Segmentation",
+      "tags": ["Python", "K-Means", "SQL", "Tableau"],
+      "sar": {
+        "situation": "Customer retention rate dropped 15% YoY, with no clarity on which segments were churning or why.",
+        "action": "Cleaned and engineered features from 500k+ rows of transaction SQL data. Applied K-Means clustering to identify 5 distinct behavioral segments. Built a Tableau dashboard for the marketing team.",
+        "result": "Targeted re-engagement campaigns increased retention by 8%, saving $3,500/month in acquisition costs."
+      },
+      "links": {
+        "github": "https://github.com",
+        "dashboard": "https://public.tableau.com"
+      }
+    },
+    {
+      "id": "2",
+      "title": "Supply Chain Cost Optimization",
+      "tags": ["Python", "XGBoost", "BigQuery", "Power BI"],
+      "sar": {
+        "situation": "Logistics costs exceeded budget by 22% across 3 consecutive quarters with no predictive visibility.",
+        "action": "Built an XGBoost regression model on 2 years of shipping data from BigQuery. Identified top 9 cost drivers and created a Power BI report for operations leadership.",
+        "result": "Model achieved 91% prediction accuracy. Recommendations led to a 14% reduction in quarterly logistics spend."
+      },
+      "links": {
+        "github": "https://github.com",
+        "dashboard": null
+      }
+    },
+    {
+      "id": "3",
+      "title": "A/B Test: Homepage Conversion Uplift",
+      "tags": ["Python", "Statistics", "SQL", "Looker"],
+      "sar": {
+        "situation": "The product team proposed a new homepage layout but lacked a rigorous framework to measure impact on sign-up conversion.",
+        "action": "Designed and ran a two-sided A/B test for 3 weeks covering 45k users. Used Chi-square tests and bootstrap confidence intervals to validate statistical significance.",
+        "result": "Confirmed a statistically significant 2.3% uplift in conversion (p < 0.05), translating to an estimated $8,000/month in additional revenue."
+      },
+      "links": {
+        "github": "https://github.com",
+        "dashboard": "https://lookerstudio.google.com"
+      }
+    }
+  ]
+}
