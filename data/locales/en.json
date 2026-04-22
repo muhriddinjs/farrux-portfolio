@@ -9,28 +9,28 @@
       "getInTouch": "Get in touch"
     },
     "hero": {
-      "availability": "Available for new opportunities",
-      "viewCaseStudies": "View Case Studies",
+      "availability": "Open to new opportunities",
+      "viewCaseStudies": "View Projects",
       "downloadResume": "Download Resume",
-      "connect": "Connect"
+      "connect": "Social Media"
     },
     "experience": {
       "label": "Career",
       "heading": "Experience",
-      "description": "roles across data analytics and business intelligence.",
+      "description": "Data analytics and business intelligence projects.",
       "present": "Present"
     },
     "education": {
       "label": "Background",
       "heading": "Education",
-      "description": "Academic foundation and professional certifications.",
-      "credentials": "credentials"
+      "description": "Academic degrees and professional certifications.",
+      "credentials": "certifications"
     },
     "projects": {
-      "label": "Case Studies",
-      "heading": "The Proof",
-      "description": "Each project is structured using the SAR framework — Situation, Action, Result — to clearly communicate impact.",
-      "sarFramework": "SAR framework",
+      "label": "Projects",
+      "heading": "Results",
+      "description": "Each project is structured using the SAR framework (Situation, Action, Result) to clearly communicate impact.",
+      "sarFramework": "SAR Framework",
       "situation": "Situation",
       "action": "Action",
       "result": "Result",
@@ -40,111 +40,190 @@
     "skills": {
       "label": "Technical Stack",
       "heading": "Tools & Technologies",
-      "description": "A curated set of tools I reach for to solve analytical problems — organized by discipline."
+      "description": "A curated set of tools I reach for to solve analytical problems."
     },
     "footer": {
       "rights": "All rights reserved."
     }
   },
   "personalInfo": {
-    "name": "Farrux Asrorqulov",
-    "headline": "Transforming complex data into actionable business decisions",
-    "bio": "Senior Data Analyst specializing in customer segmentation and cost optimization through statistical analysis and machine learning. I turn raw data into clear narratives that drive strategic decisions.",
+    "name": "Farruhjon Asrorqulov",
+    "headline": "I don't just analyze data; I transform it into intuitive and clear interfaces for users",
+    "bio": "I work at the intersection of Data Analytics and UX/UI Design. My goal is not just to display complex numbers, but to create aesthetic, simple, and effective analytical tools that facilitate decision-making. Using tools like Excel, SQL, and Python, I process raw data into 'smart' dashboards that any user can understand at a glance.",
     "photo": "/farrux.jpg",
     "links": {
-      "github": "https://github.com",
-      "linkedin": "https://linkedin.com",
-      "email": "mailto:jane.doe@example.com"
+      "github": "https://github.com/asrorqu1ov",
+      "linkedin": "https://www.linkedin.com/in/farruhjonasrorqulov/",
+      "email": "farrukh.analytics.jr@gmail.com"
     }
   },
   "experience": [
     {
       "id": "1",
-      "role": "Junior BI Analyst",
-      "company": "Team24",
+      "role": "Strong Junior Data Analyst",
+      "company": "Team 24",
       "location": "Uzbekistan, Tashkent",
       "type": "Full-time",
       "period": { "start": "Jan 2026", "end": "Present" },
       "highlights": [
-        "Owned end-to-end analytics pipeline serving 3.2M monthly active users across 12 product lines.",
-        "Reduced customer churn by 8% through K-Means segmentation model deployed to production.",
-        "Built self-serve Tableau dashboards adopted by 40+ stakeholders across Marketing and Operations.",
-        "Mentored 2 junior analysts and introduced code review practices for SQL and Python notebooks."
+        "Developed interactive and visually effective dashboards using Power BI.",
+        "Created user-friendly and intuitive analytical interfaces based on UX/UI principles.",
+        "Integrated data from multiple sources (API, Google Sheets, 1C, etc.) into a unified system.",
+        "Performed data cleaning, transformation, and business-oriented analysis.",
+        "Developed and visualized business-aligned KPIs and metrics.",
+        "Prepared dashboards that accelerate decision-making and increase efficiency for clients."
       ]
     }
   ],
   "education": [
     {
       "id": "1",
-      "degree": "Bachelor of Civil Engineering",
-      "institution": "Samarkand State University Architectuchal engineering",
+      "degree": "Bachelor (Civil Engineer)",
+      "institution": "Samarkand State University of Architecture and Construction",
       "location": "Uzbekistan, Samarkand",
       "period": { "start": "2021", "end": "2025" },
-      "gpa": "4.1 / 5.0",
+      "gpa": "4.2 / 5.0",
       "highlights": [
-        "Dean's List — 6 consecutive semesters",
-        "Thesis: 'Predictive Modeling of Consumer Behavior in E-commerce'",
-        "Teaching Assistant — Intro to Data Science (2 semesters)"
+        "Studied the fundamentals of architecture and construction, understanding design processes through practical examples.",
+        "Developed attention to detail by working with drawings, construction materials, and technical documentation.",
+        "Gained analytical thinking and systematic problem-solving skills through engineering calculations.",
+        "Developed a project management approach by breaking down complex projects into simple, logical structures."
       ]
     },
     {
       "id": "2",
-      "degree": "'Successors of Mirzo Ulugbek' preparatory course",
-      "institution": "INHA",
+      "degree": "Data Science (Data Analysis)",
+      "institution": "Successors of Mirzo Ulugbek (Preparatory Courses)",
       "location": "Uzbekistan, Tashkent",
       "period": { "start": "2023", "end": "2024" },
       "gpa": null,
       "highlights": [
-        "Completed 8-course specialization covering Python, SQL, Tableau, and ML fundamentals.",
-        "Capstone project scored in the top 5% of cohort."
+        "Learned core concepts and processes of working with data at an introductory stage.",
+        "Developed practical skills in querying, filtering, and analyzing data using SQL.",
+        "Learned data handling (Pandas, NumPy) and basic analysis processes using Python.",
+        "Applied data cleaning and transformation processes on various datasets.",
+        "Gained foundational knowledge of Machine Learning and familiarized with key algorithms."
       ]
     },
     {
       "id": "3",
-      "degree": "'Najot ta'lim' training center",
-      "institution": "Najot ta'lim",
+      "degree": "Data Analysis",
+      "institution": "Najot Ta'lim (IT Training Center)",
       "location": "Uzbekistan, Tashkent",
-      "period": { "start": "2025", "end": "2026" },
+      "period": { "start": "July 2025", "end": "Jan 2026" },
       "gpa": null,
       "highlights": [
-        "Completed 8-course specialization covering Python, SQL, Tableau, and ML fundamentals.",
-        "Capstone project scored in the top 5% of cohort."
+        "Analyzed data in Excel, creating Pivot Tables and basic data visualizations.",
+        "Developed skills in querying data using SQL DQL (SELECT, JOINs, GROUP BY) and Window Functions.",
+        "Mastered data processing and visualization using Python (Pandas, NumPy, Matplotlib, SciPy).",
+        "Gained experience in importing data via Power BI Get Data and creating interactive dashboards with slicers.",
+        "Applied UX/UI principles to design user-friendly, clear, and visually effective dashboards."
       ]
     }
   ],
   "skills": [
     {
-      "category": "Data Manipulation",
-      "items": ["Python (Pandas, NumPy)", "SQL (PostgreSQL)", "Excle (Pivot Table, Lookups)"]
+      "category": "Data Processing",
+      "items": [
+        "SQL (Intermediate: Joins, CTE, Window Functions)",
+        "Excel (Power Query, Pivot Tables, VLOOKUP/INDEX-MATCH)",
+        "Python (Pandas, NumPy)",
+        "ETL Processes",
+        "Data Cleaning & Transformation",
+        "API Integration (Requests, JSON parsing)"
+      ]
     },
     {
       "category": "Visualization",
-      "items": ["Power BI (PowerQuery)", "Matplotlib / Seaborn"]
+      "items": [
+        "Power BI (DAX, Power Query, Dashboard Design)",
+        "Python Visualization (Matplotlib, Seaborn, Plotly)",
+        "UX/UI (Analytical Interface Design)"
+      ]
     },
     {
       "category": "Statistical Analysis",
-      "items": ["A/B Testing", "Regression Analysis"]
+      "items": ["A/B Testing", "Mathematical Statistics"]
     },
     {
-      "category": "Infrastructure",
-      "items": ["Airflow", "Git / GitHub"]
+      "category": "Business Analytics",
+      "items": ["Data Storytelling", "KPI & Metric Development"]
+    },
+    {
+      "category": "Infrastructure & Design",
+      "items": ["Git & GitHub (Basic)", "Figma (Dashboard Design)"]
     }
   ],
   "projects": [
     {
       "id": "1",
-      "title": "Hasan tog'a somsaxonasi ma'lumotlarini tahlil qilish",
-      "tags": ["Python", "Pandas", "NumPy", "Matplotlib"],
+      "title": "Student Performance Analysis Dashboard",
+      "tags": ["Excel", "Pivot Tables", "Data Visualization", "Data Cleaning"],
       "sar": {
-        "situation": "Hasan tog'a somsaxona biznesi qanday yurayotgani shuncha daxxuya pul qayerda ketayotganini bilmas edi",
-        "action": "Dax**a ma'lumotlarni yig'ib, tozalab, tahlil qilib unga foydalarini ko'rsatib vizuallashtirib berildi.",
-        "result": "Bundan Hasan to'ga xursand bo'ldi cho'ntagidan mingni ($) chiqarib qistirib ketdi"
+        "situation": "Required to identify key factors influencing student academic performance based on ~1000 exam results from a Kaggle dataset.",
+        "action": "Cleaned the data in Excel, standardized columns, and created new metrics (Average Score, Performance Level). Developed a fully interactive dashboard using Pivot Tables and Slicers to analyze impact factors.",
+        "result": "Identified a strong positive correlation between test prep courses and scores, as well as the impact of socio-economic factors. Insights were used to propose academic efficiency improvements."
       },
       "links": {
-        "github": "https://github.com/muhriddinjs/farrux-portfolio",
-        "dashboard": "https://github.com/muhriddinjs/farrux-portfolio"
+        "github": "https://github.com/asrorqu1ov/Student-Performance-Analysis-Dashboard-Excel-",
+        "dashboard": null
+      }
+    },
+    {
+      "id": "2",
+      "title": "NYC Airbnb Market Analysis",
+      "tags": ["Python", "EDA", "Linear Regression", "Matplotlib", "Seaborn"],
+      "sar": {
+        "situation": "Aimed to understand price trends, room types, and neighborhood distribution in the New York City Airbnb market to predict listing prices.",
+        "action": "Cleaned the dataset (NaN values, outliers) and performed feature engineering. Conducted EDA using Matplotlib and Seaborn. Built a Linear Regression model with Scikit-learn to forecast prices.",
+        "result": "Identified primary price determinants (location, room type). The model enabled price forecasting and provided investment recommendations for the business."
+      },
+      "links": {
+        "github": "https://github.com/asrorqu1ov/NYC-Airbnb-Market-Analysis",
+        "dashboard": null
+      }
+    },
+    {
+      "id": "3",
+      "title": "UFO Sightings Analysis",
+      "tags": ["Python", "Data Cleaning", "Feature Engineering", "Visualization"],
+      "sar": {
+        "situation": "Goal was to analyze global UFO sightings from 1906 to 2014 and identify trends by time, location, and shape.",
+        "action": "Cleaned the dataset and performed complex feature engineering (extracting year, month, season, and time of day). Used text mining on witness comments to identify light effects and prepared data for unified visualization.",
+        "result": "Identified the distribution of UFO incidents by season and time of day. Documented the chronological growth trend and geographical clusters through interactive visualizations."
+      },
+      "links": {
+        "github": "https://github.com/asrorqu1ov/UFO-Unidentified-Flying-Object-",
+        "dashboard": null
+      }
+    },
+    {
+      "id": "4",
+      "title": "Healthcare Admissions & Billing Dashboard",
+      "tags": ["Excel", "Pivot Tables", "Medical Analytics", "KPI Dashboards"],
+      "sar": {
+        "situation": "Needed to analyze hospital patient admissions, weekday revenue, and billing performance to provide management with a tool for monitoring workload.",
+        "action": "Used Pivot Tables and complex formulas in Excel to analyze patient demographics, billing by insurance type, and admission types. Created an interactive dashboard with dynamic KPI cards, Slicers, and Timelines.",
+        "result": "Identified busiest weekdays and a high proportion of Emergency admissions. Revenue analysis by insurance provider provided crucial data for hospital resource allocation."
+      },
+      "links": {
+        "github": "https://github.com/asrorqu1ov/healthcare-excel-dashboard",
+        "dashboard": null
+      }
+    },
+    {
+      "id": "5",
+      "title": "Jewelry Business Intelligence (BI) Dashboard",
+      "tags": ["Power BI", "Power Query", "DAX", "Business Intelligence", "Financial Analytics"],
+      "sar": {
+        "situation": "A jewelry retail store needed an advanced BI solution to automate tracking of sales, purchase costs, and operational expenses to calculate real-time profitability and gold inventory balance.",
+        "action": "Developed an interactive Power BI dashboard using Power Query for ETL processes and DAX for complex measures (profit margin, inventory turnover). Integrated data from Google Sheets/Excel and visualized financial trends, expense breakdowns, and vendor performance.",
+        "result": "Automated the tracking of Key Financials (Revenue, Gross Profit, Net Margin) and improved inventory control by tracking gold stock levels across all categories (Rings, Earrings, etc.). Provided actionable insights into vendor efficiency and seasonal sales peaks."
+      },
+      "links": {
+        "github": "https://github.com/asrorqu1ov",
+        "dashboard": "https://app.powerbi.com/view?r=eyJrIjoiMTc0YTQ3M2ItZDQ5MS00MjcwLWJmMWItYjBkY2EzOGJmNGRjIiwidCI6IjI5ZGY5MmRmLWEzNmItNDFjMy05NDg0LWM3OGQ2NTdiOGUzNiIsImMiOjEwfQ%3D%3D&pageName=11ecf4265e80b6453e82"
       }
     }
- 
   ]
 }

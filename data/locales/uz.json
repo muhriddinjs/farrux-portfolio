@@ -17,7 +17,7 @@
     "experience": {
       "label": "Faoliyat",
       "heading": "Tajriba",
-      "description": "ma'lumotlar tahlili va biznes intellekti sohasidagi loyihalar.",
+      "description": "Ma'lumotlar tahlili va biznes intellekti sohasidagi loyihalar.",
       "present": "Hozirgacha"
     },
     "education": {
@@ -35,10 +35,10 @@
       "action": "Harakat",
       "result": "Natija",
       "viewCode": "Kodni ko'rish",
-      "viewDashboard": "Doshbordni ko'rish"
+      "viewDashboard": "Dashboardni ko'rish"
     },
     "skills": {
-      "label": "Texnologiyalar Stack-i",
+      "label": "Texnologiyalar stack-i",
       "heading": "Asboblar va Texnologiyalar",
       "description": "Analitik muammolarni hal qilishda foydalaniladigan tasdiqlangan vositalar to'plami."
     },
@@ -47,147 +47,182 @@
     }
   },
   "personalInfo": {
-    "name": "Farrux Asrorqulov",
-    "headline": "Murakkab ma'lumotlarni amaliy biznes qarorlariga aylantiraman",
-    "bio": "Mijozlarni segmentatsiyalash va statistik tahlil hamda mashinali o'rganish orqali xarajatlarni optimallashtirishga ixtisoslashgan Katta Ma'lumotlar Tahlilchisi. Men xom ma'lumotlarni strategik qarorlarni qabul qilishga olib keladigan aniq natijalarga aylantiraman.",
+    "name": "Farruhjon Asrorqulov",
+    "headline": "Ma'lumotlarni nafaqat tahlil qilaman, balki ularni foydalanuvchilar uchun intuitiv va tushunarli interfeyslarga aylantiraman",
+    "bio": "Men ma'lumotlar tahlili va UX/UI dizayn chorrahasida faoliyat yuritaman. Mening maqsadim — shunchaki murakkab raqamlarni ko'rsatish emas, balki foydalanuvchi uchun qaror qabul qilishni osonlashtiradigan, estetik jihatdan mukammal va vizual jihatdan sodda analitik vositalarni yaratishdir. Excel, SQL va Python kabi texnik vositalardan foydalanib, men xom ma'lumotlarni har qanday foydalanuvchi bir qarashda tushuna oladigan 'aqlli' dashboardlar shakliga keltiraman.",
     "photo": "/farrux.jpg",
     "links": {
-      "github": "https://github.com",
-      "linkedin": "https://linkedin.com",
-      "email": "mailto:jane.doe@example.com"
+      "github": "https://github.com/asrorqu1ov",
+      "linkedin": "https://www.linkedin.com/in/farruhjonasrorqulov/",
+      "email": "farrukh.analytics.jr@gmail.com"
     }
   },
   "experience": [
     {
       "id": "1",
-      "role": "Junior Ma'lumotlar Tahlilchisi",
-      "company": "TechCorp Inc.",
-      "location": "San Francisco, CA",
+      "role": "Strong Junior Ma'lumotlar Tahlilchisi",
+      "company": "Team 24",
+      "location": "O'zbekiston, Toshkent",
       "type": "To'liq stavka",
-      "period": { "start": "Yan 2022", "end": "Hozirgacha" },
+      "period": { "start": "Yan 2026", "end": "Hozirgacha" },
       "highlights": [
-        "12 xil mahsulot bo'ylab 3.2 million faol foydalanuvchilarga xizmat ko'rsatadigan to'liq tahlil tizimini boshqarganman.",
-        "K-Means segmentatsiya modelini joriy qilish orqali mijozlarni yo'qotish faolligini 8% ga kamaytirdim.",
-        "Marketing va Operatsiyalar bo'limidagi 40+ mutaxassislar foydalanadigan maxsus Tableau doshbordlarini yaratdim.",
-        "2 ta Junior tahlilchilarga rahbarlik qildim va SQL / Python kodlari uchun tahlil jarayonini joriy qildim."
-      ]
-    },
-    {
-      "id": "2",
-      "role": "Ma'lumotlar Tahlilchisi",
-      "company": "Retail Analytics Co.",
-      "location": "Masofaviy",
-      "type": "To'liq stavka",
-      "period": { "start": "Iyun 2020", "end": "Dek 2021" },
-      "highlights": [
-        "Narxlarni belgilash va UX qismlari bo'yicha 15+ dan ortiq qat'iy statistik tasdiqlangan A/B testlarini o'tkazdim.",
-        "Airflow va Python yordamida har haftalik hisobotlarni avtomatlashtirdim va haftasiga 6 soat vaqtni tejadim.",
-        "Talabni bashorat qilish modelini ishlab chiqish uchun logistika jamoasi bilan hamkorlik qildim (MAE: 4.2%)."
-      ]
-    },
-    {
-      "id": "3",
-      "role": "Ma'lumotlar Tahlilchisi Intern",
-      "company": "FinTech Startup",
-      "location": "New York, NY",
-      "type": "Amaliyot",
-      "period": { "start": "Iyun 2019", "end": "Avg 2019" },
-      "highlights": [
-        "SQL va Python yordamida firibgarlik holatlarini aniqlash maqsadida 200 мингдан ortiq foydalanuvchi tranzaksiyalarini tahlil qildim.",
-        "Topilgan natijalarni bevosita CTO ga taqdim etdim; tavsiyalar 2019-yil 3-chorakda to'liq joriy etildi."
+        "Power BI orqali interaktiv va vizual jihatdan samarali dashboardlar ishlab chiqdim.",
+        "UX/UI tamoyillariga asoslanib, foydalanuvchi uchun qulay va tushunarli analitik interfeyslar yaratdim.",
+        "Turli manbalardan (API, Google Sheets, 1C va boshqalar) ma’lumotlarni yig‘ib, yagona tizimga integratsiya qildim.",
+        "Ma’lumotlarni tozalash, transformatsiya qilish va biznesga yo‘naltirilgan tahlil ishlarini olib bordim.",
+        "Biznes ehtiyojlariga mos KPI va metrikalarni ishlab chiqib, ularni vizuallashtirdim.",
+        "Mijozlar uchun qaror qabul qilishni tezlashtiruvchi va samaradorlikni oshiruvchi dashboardlar tayyorladim."
       ]
     }
   ],
   "education": [
     {
       "id": "1",
-      "degree": "B.Sc. Statistika va Kompyuter Ilmlari",
-      "institution": "California Universiteti, Berkeley",
-      "location": "Berkeley, CA",
-      "period": { "start": "2016", "end": "2020" },
-      "gpa": "3.8 / 4.0",
+      "degree": "Bakalavr (Quruvchi muhandis)",
+      "institution": "Samarqand Davlat arxitektura va qurilish universiteti",
+      "location": "O'zbekiston, Samarqand",
+      "period": { "start": "2021", "end": "2025" },
+      "gpa": "4.2 / 5.0",
       "highlights": [
-        "Dekan Ro'yxati — ketma-ket 6 semestr",
-        "Diplom ishi: 'E-commerce platformalarida iste'molchi xatti-harakatlarini bashorat qilish'",
-        "O'qituvchi yordamchisi — Data Science ga kirish (2 semestr)"
+        "Arxitektura va qurilish asoslarini o‘rganib, loyihalash jarayonlari qanday ishlashini amaliy misollar orqali tushundim.",
+        "Chizmalar, qurilish materiallari va texnik hujjatlar bilan ishlash orqali tafsilotlarga e’tibor berish ko‘nikmasini rivojlantirdim.",
+        "Muhandislik hisob-kitoblari ustida ishlash davomida analitik fikrlash va muammolarni tizimli hal qilishni o‘rgandim.",
+        "Murakkab loyihalarni sodda va tushunarli qilib ajratish (strukturaga solish) orqali ishlash yondashuvini shakllantirdim."
       ]
     },
     {
       "id": "2",
-      "degree": "Data Science Professional Sertifikati",
-      "institution": "Coursera / Google",
-      "location": "Onlayn",
-      "period": { "start": "2021", "end": "2021" },
+      "degree": "Data Science (Ma'lumotlar tahlili)",
+      "institution": "Mirzo Ulug‘bek Vorislari (tayyorlov kurslari)",
+      "location": "O'zbekiston, Toshkent",
+      "period": { "start": "2023", "end": "2024" },
       "gpa": null,
       "highlights": [
-        "Python, SQL, Tableau va ML asoslari bo'yicha 8 kursli ixtisoslashtirilgan dasturni tamomladim.",
-        "Yakuniy loyiha barcha talabalarning eng yaxshi 5% safiga kirdi."
+        "Ma’lumotlar tahliliga kirish bosqichida data bilan ishlashning asosiy tushunchalari va jarayonlarini o‘rgandim.",
+        "SQL yordamida ma’lumotlarni so‘rash, filtrlash va tahlil qilish bo‘yicha amaliy ko‘nikmalarni rivojlantirdim.",
+        "Python orqali data bilan ishlash (Pandas, NumPy) va oddiy tahlil jarayonlarini bajarishni o‘rgandim.",
+        "Data cleaning va transformatsiya jarayonlarini turli datasetlar ustida amalda qo‘lladim.",
+        "Machine Learning bo‘yicha boshlang‘ich bilimlarga ega bo‘lib, asosiy algoritmlar va ularning ishlash prinsiplari bilan tanishdim."
+      ]
+    },
+    {
+      "id": "3",
+      "degree": "Data analysis",
+      "institution": "Najot ta'lim (IT o'quv markazi)",
+      "location": "O'zbekiston, Toshkent",
+      "period": { "start": "Iyul 2025", "end": "Yan 2026" },
+      "gpa": null,
+      "highlights": [
+        "Excel’da ma’lumotlarni tahlil qilish, saralash, Pivot Table yaratish va ma'lumotlarni boshlang'ich vizualizatsiya qilish ishlari bilan shug‘ullandim.",
+        "SQL’da DQL (SELECT, WHERE, GROUP BY, ORDER BY), JOIN funksiyalari va aggregation funksiyalari orqali ma’lumotlarni tahlil qilish hamda window functionlar bilan ishlash ko‘nikmalarini rivojlantirdim.",
+        "Python asoslari bilan ishlash, shuningdek Pandas, NumPy, Matplotlib va SciPy kutubxonalari yordamida data processing va vizualizatsiya qilishni o‘rgandim.",
+        "Power BI’da Get Data orqali ma’lumotlarni import qilish, interaktiv dashboardlar yaratish va slicerlar bilan ishlash tajribasiga ega bo‘ldim.",
+        "UX/UI tamoyillariga asoslanib, foydalanuvchi uchun qulay, tushunarli va vizual jihatdan samarali dashboard dizayn qilishni amalda qo‘lladim."
       ]
     }
   ],
   "skills": [
     {
       "category": "Ma'lumotlarni Qayta Ishlash",
-      "items": ["Python (Pandas, NumPy)", "SQL (PostgreSQL)", "dbt", "Apache Spark"]
+      "items": [
+        "SQL (Intermediate: Joins, CTE, Window Functions)",
+        "Excel (Power Query, Pivot Tables, VLOOKUP/INDEX-MATCH)",
+        "Python (Pandas, NumPy)",
+        "ETL jarayonlari",
+        "Data Cleaning & Transformation",
+        "API bilan ishlash (Requests, JSON parsing)"
+      ]
     },
     {
       "category": "Vizualizatsiya",
-      "items": ["Tableau", "Power BI", "Matplotlib / Seaborn", "Looker"]
+      "items": [
+        "Power BI (DAX, Power Query, Dashboard Design)",
+        "Python Visualization (Matplotlib, Seaborn, Plotly)",
+        "UX/UI (Analitik interfeyslar dizayni)"
+      ]
     },
     {
       "category": "Statistik Tahlil",
-      "items": ["A/B Testing", "Regression Analysis", "Hypothesis Testing", "Time Series"]
+      "items": ["A/B Testing", "Matematik Statistika"]
     },
     {
-      "category": "Mashinali O'rganish",
-      "items": ["Scikit-learn", "K-Means Clustering", "XGBoost", "Feature Engineering"]
+      "category": "Biznes Analitika",
+      "items": ["Data Storytelling", "KPI va Metrikalar ishlab chiqish"]
     },
     {
-      "category": "Infrastruktura",
-      "items": ["Google BigQuery", "AWS Redshift", "Airflow", "Git / GitHub"]
+      "category": "Infrastruktura va Dizayn",
+      "items": ["Git & GitHub (Basic)", "Figma (Dashboard dizayn)"]
     }
   ],
   "projects": [
     {
       "id": "1",
-      "title": "E-commerce Mijozlari Segmentatsiyasi",
-      "tags": ["Python", "K-Means", "SQL", "Tableau"],
+      "title": "Student Performance Analysis Dashboard",
+      "tags": ["Excel", "Pivot Tables", "Data Visualization", "Data Cleaning"],
       "sar": {
-        "situation": "Mijozlarni ushlab qolish darajasi o'tgan yilga nisbatan 15% ga kamaydi, biroq qaysi turdagi mijozlar va nima sababdan ketayotganligi noma'lum edi.",
-        "action": "500 мингдан ortiq SQL tranzaksiyalaridan iborat ma'lumotlarni tozaladim. 5 xil tipdagi foydalanuvchi klasterlarini ajratish uchun K-Means algoritmini qullädim. Marketing jamoasi uchun vizual Tableau doshbordini tuzdim.",
-        "result": "Tegishli re-engagement kampaniyalari orqali ushlab qolish darajasi 8% ga oshdi va xarajatlarni har oy $3,500 ga qisqartirdi."
+        "situation": "Kaggle platformasidagi ~1000 nafar o'quvchining imtihon natijalari asosida o'quv samaradorligiga ta'sir qiluvchi asosiy omillarni aniqlash talab etildi.",
+        "action": "Excel'da ma'lumotlarni tozaladim (Data Cleaning), ustunlarni standartlashtirdim va yangi metrikalar (O'rtacha ball, Samaradorlik darajasi) yaratdim. Pivot Table va Slicerlar yordamida faktorlar ta'sirini tahlil qilib, to'liq interaktiv dashboard qurdim.",
+        "result": "Testga tayyorgarlik kursining natijalarga ijobiy ta'siri va ijtimoiy-iqtisodiy omillarning o'quv samaradorligi bilan yuqori bog'liqligi aniqlandi. Olingan xulosalar ta'lim samaradorligini oshirish uchun asos bo'ldi."
       },
       "links": {
-        "github": "https://github.com",
-        "dashboard": "https://public.tableau.com"
+        "github": "https://github.com/asrorqu1ov/Student-Performance-Analysis-Dashboard-Excel-",
+        "dashboard": null
       }
     },
     {
       "id": "2",
-      "title": "Logistika Xarajatlarini Optimallashtirish",
-      "tags": ["Python", "XGBoost", "BigQuery", "Power BI"],
+      "title": "NYC Airbnb Market Analysis",
+      "tags": ["Python", "EDA", "Linear Regression", "Matplotlib", "Seaborn"],
       "sar": {
-        "situation": "Logistika xarajatlari ketma-ket 3 chorak davomida rejadagidan 22% ga oshib ketdi va buni bashorat qilib bo'lmas edi.",
-        "action": "BigQuery'dagi 2 yillik yuk tashish ma'lumotlari asosida XGBoost regressiya modelini qurdim. 9 ta asosiy xarajat haydovchisini aniqladim va operatsion rahbariyat uchun Power BI hisobotini yaratdim.",
-        "result": "Model barcha holatlarni 91% aniqlik bilan bashorat qildi. Berilgan tavsiyalar har chorakda logistika xarajatlarini 14% ga kamaytirishga olib keldi."
+        "situation": "New York City'dagi Airbnb bozorining narx trendlari, xona turlari va mahallalar bo'yicha taqsimotini tushunish hamda kelajakdagi narxlarni bashorat qilish zarur edi.",
+        "action": "Datasetni tozaladim (NaN qiymatlar, outlierlar), feature engineering o'tkazdim. Matplotlib va Seaborn yordamida EDA qildim. Narxlarni prognoz qilish uchun Scikit-learn kutubxonasida Linear Regression modelini qurdum.",
+        "result": "Narxlarni belgilovchi asosiy omillar (mahalla, xona turi) aniqlandi. Model yordamida listing narxlarini bashorat qilish imkoniyati yaratildi va biznes uchun investitsiya bo'yicha tavsiyalar berildi."
       },
       "links": {
-        "github": "https://github.com",
+        "github": "https://github.com/asrorqu1ov/NYC-Airbnb-Market-Analysis",
         "dashboard": null
       }
     },
     {
       "id": "3",
-      "title": "A/B Test: Bosh sahifa Konversiyasini Oshirish",
-      "tags": ["Python", "Statistics", "SQL", "Looker"],
+      "title": "UFO Sightings Analysis",
+      "tags": ["Python", "Data Cleaning", "Feature Engineering", "Visualization"],
       "sar": {
-        "situation": "Mahsulot jamoasi yangi bosh sahifa maketini taklif qildi, ammo ro'yxatdan o'tish ko'rsatkichiga qanday ta'sir qilishini aniq isbotlovchi tizim yo'q edi.",
-        "action": "45 минг foydalanuvchi ishtirokida 3 haftalik qat'iy A/B test loyihasini yaratdim va jarayonni nazorat qildim. Statistik ahamiyatini tasdiqlash uchun Chi-square va Bootstrap ishonch oraliqlaridan foydalandim.",
-        "result": "Konversiyaning 2.3% ga sifat jihatdan ishonchli (p < 0.05) ko'tarilganligini tasdiqladim. Bu har oy qo'shimcha $8,000 daromad keltiradi."
+        "situation": "1906-yildan 2014-yilgacha bo‘lgan davrda dunyo bo‘ylab kuzatilgan UFO (noma’lum uchuvchi jismlar) hodisalarini tahlil qilish va ularning vaqt, joy hamda shakl bo‘yicha tendensiyalarini aniqlash maqsad qilingan.",
+        "action": "Datasetni tozaladim va murakkab feature engineering ishlarini bajardim (yil, oy, fasl va kun vaqtini ajratish). Guvohlarning matnli izohlaridan foydalanib, hodisa vaqtidagi yorug'lik effektlarini aniqladim (Text Mining) va barcha ma'lumotlarni tahlilga tayyorladim.",
+        "result": "UFO hodisalarining fasllar va sutka vaqti bo‘yicha taqsimoti aniqlandi. Vizualizatsiyalar orqali ushbu hodisalarning xronologik o‘sish trendi va geografik joylashuvi ko'rsatib berildi."
       },
       "links": {
-        "github": "https://github.com",
-        "dashboard": "https://lookerstudio.google.com"
+        "github": "https://github.com/asrorqu1ov/UFO-Unidentified-Flying-Object-",
+        "dashboard": null
+      }
+    },
+    {
+      "id": "4",
+      "title": "Healthcare Admissions & Billing Dashboard",
+      "tags": ["Excel", "Pivot Tables", "Medical Analytics", "KPI Dashboards"],
+      "sar": {
+        "situation": "Shifoxonadagi bemorlarning qabuli, haftalik kunlar bo'yicha tushumlar va billing ko'rsatkichlarini tizimli tahlil qilish hamda rahbariyat uchun bandlik holatini ko'rsatuvchi vosita yaratish zarur edi.",
+        "action": "Excel dasturida pivot table va murakkab formulalar yordamida bemorlar demografiyasi, sug'urta turiga ko'ra billing miqdori va qabul turini tahlil qildim. Slicer va Timeline vositalari yordamida interaktiv dashboard va dinamik KPI kartalarini qurdum.",
+        "result": "Eng band bo'lgan haftalik kunlar va favqulodda (Emergency) qabullarning yuqori ulushi aniqlandi. Sug'urta provayderlari bo'yicha daromad tahlil qilinib, shifoxona resurslarini taqsimlash uchun asos bo'luvchi xulosalar berildi."
+      },
+      "links": {
+        "github": "https://github.com/asrorqu1ov/healthcare-excel-dashboard",
+        "dashboard": null
+      }
+    },
+    {
+      "id": "5",
+      "title": "Zargarlik Biznes Analitikasi (BI) Dashboardi",
+      "tags": ["Power BI", "Power Query", "DAX", "Business Intelligence", "Moliyaviy Tahlil"],
+      "sar": {
+        "situation": "Zargarlik do'koni savdo, xarid xarajatlari va operatsion xarajatlarni avtomatlashtirilgan tarzda kuzatish, real vaqt rejimida foyda va oltin zaxirasi qoldig'ini hisoblash uchun ilg'or BI yechimiga muhtoj edi.",
+        "action": "Power Query yordamida ETL jarayonlarini avtomatlashtirgan holda va DAX o'lchovlaridan foydalanib murakkab hisob-kitoblarni (foyda marginasi, ombor aylanmasi) yaratgan holda interaktiv Power BI dashboardini ishlab chiqdim. Ma'lumotlarni Google Sheets/Excel'dan integratsiya qildim.",
+        "result": "Umumiy tushum, yalpi foyda va sof foyda marginasini kuzatish avtomatlashtirildi. Barcha kategoriyalar bo'yicha oltin qoldig'ini (grammda) nazorat qilish yaxshilandi. Yetkazib beruvchilar samaradorligi va mavsumiy savdo trendlari bo'yicha tahliliy ma'lumotlar taqdim etildi."
+      },
+      "links": {
+        "github": "https://github.com/asrorqu1ov",
+        "dashboard": "https://app.powerbi.com/view?r=eyJrIjoiMTc0YTQ3M2ItZDQ5MS00MjcwLWJmMWItYjBkY2EzOGJmNGRjIiwidCI6IjI5ZGY5MmRmLWEzNmItNDFjMy05NDg0LWM3OGQ2NTdiOGUzNiIsImMiOjEwfQ%3D%3D&pageName=11ecf4265e80b6453e82"
       }
     }
   ]
