@@ -7,7 +7,15 @@ import ThemeToggle from "./ThemeToggle";
 import LanguageSwitcher from "./LanguageSwitcher";
 
 // Navbar component — sticky with blur backdrop, collapses on mobile
-export default function Navbar({ name, email, ui }: { name: string, email: string, ui: any }) {
+export default function Navbar({
+  name,
+  email,
+  ui,
+}: {
+  name: string;
+  email: string;
+  ui: any;
+}) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -29,7 +37,9 @@ export default function Navbar({ name, email, ui }: { name: string, email: strin
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "glass-card border-x-0 border-t-0 border-b shadow-sm shadow-zinc-900/5 dark:shadow-black/20" : "bg-transparent"
+        scrolled
+          ? "bg-white/70 dark:bg-zinc-900/70 backdrop-blur-md border-b border-zinc-200/50 dark:border-zinc-800/50 shadow-sm"
+          : "bg-transparent"
       }`}
     >
       <nav className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
@@ -63,7 +73,7 @@ export default function Navbar({ name, email, ui }: { name: string, email: strin
             <LanguageSwitcher />
             <ThemeToggle />
             <a
-              href={email}
+              href={`mailto:${email}`}
               id="nav-cta"
               className="px-3 py-1.5 text-sm font-medium text-indigo-600 dark:text-indigo-400 border border-indigo-500/40 hover:border-indigo-400 hover:text-indigo-700 dark:hover:text-indigo-300 hover:bg-indigo-50 dark:hover:bg-indigo-500/10 rounded-md transition-all duration-150"
             >
@@ -82,7 +92,11 @@ export default function Navbar({ name, email, ui }: { name: string, email: strin
             aria-label="Toggle menu"
             aria-expanded={isMenuOpen}
           >
-            {isMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+            {isMenuOpen ? (
+              <X className="w-5 h-5" />
+            ) : (
+              <Menu className="w-5 h-5" />
+            )}
           </button>
         </div>
       </nav>

@@ -49,7 +49,7 @@
   "personalInfo": {
     "name": "Фаррухджон Асроркулов",
     "headline": "Я не просто анализирую данные — я превращаю их в интуитивно понятные интерфейсы для пользователей",
-    "bio": "Я работаю на стыке аналитики данных и UX/UI дизайна. Моя цель — не просто показывать сложные цифры, а создавать эстетичные, простые и эффективные аналитические инструменты, облегчающие принятие решений. С помощью Excel, SQL и Python я превращаю сырые данные в «умные» дашборды, которые любой пользователь сможет понять с первого взгляда.",
+    "bio": "Я работаю на стыке аналитики данных и UX/UI дизайна. Моя цель — не просто показывать сложные цифры, а создавать эстетичные, простые и эффективные аналитические инструменты, облегчающие принятие решений.",
     "photo": "/farrux.jpg",
     "links": {
       "github": "https://github.com/asrorqu1ov",
@@ -165,7 +165,7 @@
         "result": "Выявлена сильная положительная корреляция между курсами подготовки и оценками, а также влияние социально-экономических факторов. Выводы использованы для повышения эффективности обучения."
       },
       "links": {
-        "github": "https://github.com/asrorqu1ov/Student-Performance-Analysis-Dashboard-Excel-",
+        "github": "https://github.com/asrorqu1ov/Student-Performance-Analysis-Dashboard",
         "dashboard": null
       }
     },
@@ -179,7 +179,7 @@
         "result": "Определены основные факторы ценообразования (район, тип жилья). Модель позволила прогнозировать цены и давать инвестиционные рекомендации для бизнеса."
       },
       "links": {
-        "github": "https://github.com/asrorqu1ov/NYC-Airbnb-Market-Analysis",
+        "github": "https://github.com/asrorqu1ov/NYC_Airbnb_Analysis",
         "dashboard": null
       }
     },
@@ -221,7 +221,7 @@
         "result": "Автоматизировано отслеживание ключевых финансовых показателей (выручка, валовая и чистая прибыль). Улучшен контроль остатков золота (в граммах) по всем категориям (кольца, серьги и др.). Предоставлена аналитика по эффективности поставщиков и сезонным пикам продаж."
       },
       "links": {
-        "github": "https://github.com/asrorqu1ov",
+        "github": "https://github.com/asrorqu1ov/Jewelry-Business-Intelligence-BI-Dashboard",
         "dashboard": "https://app.powerbi.com/view?r=eyJrIjoiMTc0YTQ3M2ItZDQ5MS00MjcwLWJmMWItYjBkY2EzOGJmNGRjIiwidCI6IjI5ZGY5MmRmLWEzNmItNDFjMy05NDg0LWM3OGQ2NTdiOGUzNiIsImMiOjEwfQ%3D%3D&pageName=11ecf4265e80b6453e82"
       }
     }

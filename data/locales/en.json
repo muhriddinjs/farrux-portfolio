@@ -48,13 +48,13 @@
   },
   "personalInfo": {
     "name": "Farruhjon Asrorqulov",
-    "headline": "I don't just analyze data; I transform it into intuitive and clear interfaces for users",
+    "headline": "I don't just analyze data. I transform it into intuitive and clear interfaces for users",
     "bio": "I work at the intersection of Data Analytics and UX/UI Design. My goal is not just to display complex numbers, but to create aesthetic, simple, and effective analytical tools that facilitate decision-making. Using tools like Excel, SQL, and Python, I process raw data into 'smart' dashboards that any user can understand at a glance.",
     "photo": "/farrux.jpg",
     "links": {
       "github": "https://github.com/asrorqu1ov",
       "linkedin": "https://www.linkedin.com/in/farruhjonasrorqulov/",
-      "email": "farrukh.analytics.jr@gmail.com"
+      "email": "commonmuhriddin@gmail.com"
     }
   },
   "experience": [
@@ -165,7 +165,7 @@
         "result": "Identified a strong positive correlation between test prep courses and scores, as well as the impact of socio-economic factors. Insights were used to propose academic efficiency improvements."
       },
       "links": {
-        "github": "https://github.com/asrorqu1ov/Student-Performance-Analysis-Dashboard-Excel-",
+        "github": "https://github.com/asrorqu1ov/Student-Performance-Analysis-Dashboard",
         "dashboard": null
       }
     },
@@ -179,14 +179,19 @@
         "result": "Identified primary price determinants (location, room type). The model enabled price forecasting and provided investment recommendations for the business."
       },
       "links": {
-        "github": "https://github.com/asrorqu1ov/NYC-Airbnb-Market-Analysis",
+        "github": "https://github.com/asrorqu1ov/NYC_Airbnb_Analysis",
         "dashboard": null
       }
     },
     {
       "id": "3",
       "title": "UFO Sightings Analysis",
-      "tags": ["Python", "Data Cleaning", "Feature Engineering", "Visualization"],
+      "tags": [
+        "Python",
+        "Data Cleaning",
+        "Feature Engineering",
+        "Visualization"
+      ],
       "sar": {
         "situation": "Goal was to analyze global UFO sightings from 1906 to 2014 and identify trends by time, location, and shape.",
         "action": "Cleaned the dataset and performed complex feature engineering (extracting year, month, season, and time of day). Used text mining on witness comments to identify light effects and prepared data for unified visualization.",
@@ -214,14 +219,20 @@
     {
       "id": "5",
       "title": "Jewelry Business Intelligence (BI) Dashboard",
-      "tags": ["Power BI", "Power Query", "DAX", "Business Intelligence", "Financial Analytics"],
+      "tags": [
+        "Power BI",
+        "Power Query",
+        "DAX",
+        "Business Intelligence",
+        "Financial Analytics"
+      ],
       "sar": {
         "situation": "A jewelry retail store needed an advanced BI solution to automate tracking of sales, purchase costs, and operational expenses to calculate real-time profitability and gold inventory balance.",
         "action": "Developed an interactive Power BI dashboard using Power Query for ETL processes and DAX for complex measures (profit margin, inventory turnover). Integrated data from Google Sheets/Excel and visualized financial trends, expense breakdowns, and vendor performance.",
         "result": "Automated the tracking of Key Financials (Revenue, Gross Profit, Net Margin) and improved inventory control by tracking gold stock levels across all categories (Rings, Earrings, etc.). Provided actionable insights into vendor efficiency and seasonal sales peaks."
       },
       "links": {
-        "github": "https://github.com/asrorqu1ov",
+        "github": "https://github.com/asrorqu1ov/Jewelry-Business-Intelligence-BI-Dashboard",
         "dashboard": "https://app.powerbi.com/view?r=eyJrIjoiMTc0YTQ3M2ItZDQ5MS00MjcwLWJmMWItYjBkY2EzOGJmNGRjIiwidCI6IjI5ZGY5MmRmLWEzNmItNDFjMy05NDg0LWM3OGQ2NTdiOGUzNiIsImMiOjEwfQ%3D%3D&pageName=11ecf4265e80b6453e82"
       }
     }

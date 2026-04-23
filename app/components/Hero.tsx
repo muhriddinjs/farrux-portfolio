@@ -30,13 +30,41 @@ function getInitials(name: string) {
 }
 
 // Hero section — split layout: text left, photo right (Variant 2)
-export default function Hero({ name, headline, bio, photo, links, ui }: HeroProps) {
+export default function Hero({
+  name,
+  headline,
+  bio,
+  photo,
+  links,
+  ui,
+}: HeroProps) {
   return (
     <section
       id="hero"
       className="relative min-h-screen flex items-center px-6 pt-20 pb-16 overflow-hidden"
       aria-label="Introduction"
     >
+      
+      {/* ── CSS ANIMATSIYALI ORQA FON BOSHLANISHI ─────────────────────── */}
+      <div className="absolute inset-0 -z-10 pointer-events-none overflow-hidden">
+        {/* Nuqtalar va ularning harakati */}
+        <div
+          className="absolute -inset-[100%] bg-[radial-gradient(#cbd5e1_1px,transparent_1px)] dark:bg-[radial-gradient(#3f3f46_1px,transparent_1px)] [background-size:32px_32px] opacity-40 [mask-image:radial-gradient(ellipse_60%_60%_at_50%_50%,#000_10%,transparent_100%)]"
+          style={{ animation: "moveBackground 40s linear infinite" }}
+        />
+      </div>
+
+      {/* Keyframe animatsiyasi (global CSS ga yozish ham mumkin) */}
+      <style>{`
+        @keyframes moveBackground {
+          0% { transform: translateY(0) translateX(0); }
+          50% { transform: translateY(-30px) translateX(20px); }
+          100% { transform: translateY(0) translateX(0); }
+        }
+      `}</style>
+      {/* ── CSS ANIMATSIYALI ORQA FON TUGASHI ────────────────────────── */}
+
+
       <div className="relative max-w-5xl mx-auto w-full z-10">
         <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-12 md:gap-16 items-center">
           {/* ── LEFT / TEXT COLUMN ───────────────────────────────────────── */}
@@ -134,8 +162,8 @@ export default function Hero({ name, headline, bio, photo, links, ui }: HeroProp
           {/* ── RIGHT / PHOTO COLUMN (Hidden on Mobile) ──────────────────── */}
           <div className="hidden md:flex order-1 md:order-2 justify-center md:justify-end">
             {photo ? (
-              <div className="relative w-56 h-56 md:w-72 md:h-72 flex-shrink-0 group">
-                <div className="absolute inset-0 rounded-2xl bg-indigo-500/20 blur-3xl scale-110 -z-10 group-hover:bg-indigo-400/30 transition-colors duration-500" />
+              <div className="relative w-64 h-64 md:w-96 md:h-96 flex-shrink-0 group">
+                <div className="absolute inset-0 rounded-2xl  blur-3xl scale-110 -z-10 transition-colors duration-500" />
                 <div className="relative w-full h-full rounded-2xl overflow-hidden glass-card p-1 shadow-2xl">
                   <div className="relative w-full h-full rounded-xl overflow-hidden">
                     <Image
@@ -148,8 +176,14 @@ export default function Hero({ name, headline, bio, photo, links, ui }: HeroProp
                     />
                   </div>
                 </div>
-                <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 px-3 py-1.5 glass-card rounded-full shadow-lg border border-white/20 dark:border-white/10">
-                  <span className="text-xs font-medium text-zinc-800 dark:text-zinc-200 whitespace-nowrap">
+                <div
+                  className="absolute -bottom-3 left-1/2 -translate-x-1/2 px-3 py-1.5 
+                rounded-full shadow-xl border 
+                bg-white/20 dark:bg-zinc-900/20 
+                backdrop-blur-md 
+                border-white/20 dark:border-white/10"
+                >
+                  <span className="text-xs font-medium text-zinc-900 dark:text-zinc-100 whitespace-nowrap">
                     {name}
                   </span>
                 </div>

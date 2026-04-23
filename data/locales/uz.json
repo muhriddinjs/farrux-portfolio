@@ -48,8 +48,8 @@
   },
   "personalInfo": {
     "name": "Farruhjon Asrorqulov",
-    "headline": "Ma'lumotlarni nafaqat tahlil qilaman, balki ularni foydalanuvchilar uchun intuitiv va tushunarli interfeyslarga aylantiraman",
-    "bio": "Men ma'lumotlar tahlili va UX/UI dizayn chorrahasida faoliyat yuritaman. Mening maqsadim — shunchaki murakkab raqamlarni ko'rsatish emas, balki foydalanuvchi uchun qaror qabul qilishni osonlashtiradigan, estetik jihatdan mukammal va vizual jihatdan sodda analitik vositalarni yaratishdir. Excel, SQL va Python kabi texnik vositalardan foydalanib, men xom ma'lumotlarni har qanday foydalanuvchi bir qarashda tushuna oladigan 'aqlli' dashboardlar shakliga keltiraman.",
+    "headline": "Ma'lumotlarni nafaqat tahlil qilaman, balki ularni foydalanuvchilar uchun tushunarli interfeyslarga aylantiraman",
+    "bio": "Men ma'lumotlar tahlili va UX/UI dizayn chorrahasida faoliyat yuritaman. Mening maqsadim — shunchaki murakkab raqamlarni ko'rsatish emas, balki foydalanuvchi uchun qaror qabul qilishni osonlashtiradigan, estetik jihatdan mukammal va vizual jihatdan sodda analitik vositalarni yaratishdir. ",
     "photo": "/farrux.jpg",
     "links": {
       "github": "https://github.com/asrorqu1ov",
@@ -165,7 +165,7 @@
         "result": "Testga tayyorgarlik kursining natijalarga ijobiy ta'siri va ijtimoiy-iqtisodiy omillarning o'quv samaradorligi bilan yuqori bog'liqligi aniqlandi. Olingan xulosalar ta'lim samaradorligini oshirish uchun asos bo'ldi."
       },
       "links": {
-        "github": "https://github.com/asrorqu1ov/Student-Performance-Analysis-Dashboard-Excel-",
+        "github": "https://github.com/asrorqu1ov/Student-Performance-Analysis-Dashboard",
         "dashboard": null
       }
     },
@@ -179,7 +179,7 @@
         "result": "Narxlarni belgilovchi asosiy omillar (mahalla, xona turi) aniqlandi. Model yordamida listing narxlarini bashorat qilish imkoniyati yaratildi va biznes uchun investitsiya bo'yicha tavsiyalar berildi."
       },
       "links": {
-        "github": "https://github.com/asrorqu1ov/NYC-Airbnb-Market-Analysis",
+        "github": "https://github.com/asrorqu1ov/NYC_Airbnb_Analysis",
         "dashboard": null
       }
     },
@@ -221,7 +221,7 @@
         "result": "Umumiy tushum, yalpi foyda va sof foyda marginasini kuzatish avtomatlashtirildi. Barcha kategoriyalar bo'yicha oltin qoldig'ini (grammda) nazorat qilish yaxshilandi. Yetkazib beruvchilar samaradorligi va mavsumiy savdo trendlari bo'yicha tahliliy ma'lumotlar taqdim etildi."
       },
       "links": {
-        "github": "https://github.com/asrorqu1ov",
+        "github": "https://github.com/asrorqu1ov/Jewelry-Business-Intelligence-BI-Dashboard",
         "dashboard": "https://app.powerbi.com/view?r=eyJrIjoiMTc0YTQ3M2ItZDQ5MS00MjcwLWJmMWItYjBkY2EzOGJmNGRjIiwidCI6IjI5ZGY5MmRmLWEzNmItNDFjMy05NDg0LWM3OGQ2NTdiOGUzNiIsImMiOjEwfQ%3D%3D&pageName=11ecf4265e80b6453e82"
       }
     }
