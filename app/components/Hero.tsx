@@ -160,7 +160,7 @@ export default function Hero({
           </div>
 
           {/* ── RIGHT / PHOTO COLUMN (Hidden on Mobile) ──────────────────── */}
-          <div className="hidden md:flex order-1 md:order-2 justify-center md:justify-end">
+          {/* <div className="hidden md:flex order-1 md:order-2 justify-center md:justify-end">
             {photo ? (
               <div className="relative w-64 h-64 md:w-96 md:h-96 flex-shrink-0 group">
                 <div className="absolute inset-0 rounded-2xl  blur-3xl scale-110 -z-10 transition-colors duration-500" />
@@ -198,9 +198,10 @@ export default function Hero({
                 </div>
               </div>
             )}
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
   );
 }
+
